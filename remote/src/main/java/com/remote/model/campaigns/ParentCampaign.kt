@@ -1,3 +1,3 @@
 package com.remote.model.campaigns
 
-open class ParentCampaign()
+open class ParentCampaign
