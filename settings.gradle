@@ -1,0 +1,12 @@
+//include ':app', ':local', ':buildSrc', ':common', ':core', ':manager', ':remote', ':util', ':widget'
+import com.buildsrc.Modules
+
+
+include(Modules.util)
+include(Modules.widget)
+include(Modules.manager)
+include(Modules.local)
+include(Modules.remote)
+include(Modules.app)
+
+rootProject.name='hepsiburadacase'
