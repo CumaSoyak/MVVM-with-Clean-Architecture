@@ -1,11 +1,10 @@
-###Hepsiburada Case
-Introduction
-------------
+### Hepsiburada Case
+
 
 The application uses Clean Architecture based on MVVM and Repository patterns. Implemented
 Architecture principles follow Google recommended [Guide to app architecture](https://developer.android.com/jetpack/docs/guide).
 
-![Guide to app architecture](screenshots/guide-to-app-architecture.png "Guide to app architecture")
+![Guide to app architecture](screenshots/repo.png "Guide to app architecture")
 
 The application is written entirely in Kotlin.
 
@@ -42,7 +41,7 @@ A sample app consist of 4 screens: Splash, List of Favorites, Library[Category] 
 Multi-Module
 -----------
 
-![Module Structure](hepsiburada.jpg "Multi-Module")
+![Module Structure](screenshots/modul.jpg "Multi-Module")
 
 Libraries Used
 --------------
@@ -54,7 +53,7 @@ Android Jetpack is a set of components, tools and guidance to make great Android
 together the existing Support Library and Architecture Components and arranges them into four
 categories:
 
-![Android Jetpack](screenshots/jetpack_donut.png "Android Jetpack Components")
+![Android Jetpack](screenshots/library.png "Android Jetpack Components")
 
 * [Foundation][0] - Components for core system capabilities, Kotlin extensions and support for
   multidex and automated testing.
