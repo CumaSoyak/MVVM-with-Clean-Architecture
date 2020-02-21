@@ -42,7 +42,7 @@ A sample app consist of 4 screens: Splash, List of Favorites, Library[Category] 
 Multi-Module
 -----------
 
-![Module Structure](screenshots/project-module.png "Multi-Module")
+![Module Structure](hepsiburada.jpg "Multi-Module")
 
 Libraries Used
 --------------
