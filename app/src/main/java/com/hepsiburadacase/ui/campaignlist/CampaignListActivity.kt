@@ -8,8 +8,7 @@ import com.hepsiburadacase.databinding.ActivityCampaignListBinding
 import com.hepsiburadacase.ui.base.BindingActivity
 import com.hepsiburadacase.ui.campaignlist.adapter.CampaignAdapter
 import com.remote.model.campaigns.Campaigns
-import com.remote.model.campaigns.ParentClass
-import kotlinx.android.synthetic.main.activity_campaign_list.*
+import com.remote.model.campaigns.ParentCampaign
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class CampaignListActivity : BindingActivity<ActivityCampaignListBinding>() {
@@ -79,8 +78,8 @@ class CampaignListActivity : BindingActivity<ActivityCampaignListBinding>() {
     }
 
 
-    fun processCampaignData(campaignData: Campaigns?): ArrayList<ParentClass> {
-        val listCampaign: ArrayList<ParentClass> = arrayListOf()
+    fun processCampaignData(campaignData: Campaigns?): ArrayList<ParentCampaign> {
+        val listCampaign: ArrayList<ParentCampaign> = arrayListOf()
 
         val sizeHotDeals: Int = campaignData?.hotDeals!!.size
         val sizeBanners: Int = campaignData.banners.size

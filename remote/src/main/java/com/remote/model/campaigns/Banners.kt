@@ -5,4 +5,4 @@ import com.remote.model.image.Image
 
 data class Banners(
     @SerializedName("image") val image: Image?
-) : ParentClass()
+) : ParentCampaign()

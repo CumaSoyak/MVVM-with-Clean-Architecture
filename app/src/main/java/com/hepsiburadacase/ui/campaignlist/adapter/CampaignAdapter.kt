@@ -6,14 +6,14 @@ import androidx.recyclerview.widget.RecyclerView
 import com.hepsiburadacase.R
 import com.remote.model.campaigns.Banners
 import com.remote.model.campaigns.HotDeals
-import com.remote.model.campaigns.ParentClass
+import com.remote.model.campaigns.ParentCampaign
 import com.util.extensions.calculateTime
 import com.util.extensions.inflate
 import com.util.extensions.load
 import kotlinx.android.synthetic.main.item_campaign_generic_banner.view.*
 import kotlinx.android.synthetic.main.item_campaign_hot_deal.view.*
 
-class CampaignAdapter(var listCampaign: ArrayList<ParentClass>) :
+class CampaignAdapter(var listCampaign: ArrayList<ParentCampaign>) :
     RecyclerView.Adapter<CampaignAdapter.CampaignViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CampaignViewHolder =
@@ -40,7 +40,7 @@ class CampaignAdapter(var listCampaign: ArrayList<ParentClass>) :
         }
     }
 
-    fun addData(listCampaign: ArrayList<ParentClass>) {
+    fun addData(listCampaign: ArrayList<ParentCampaign>) {
         this.listCampaign = listCampaign
     }
 
