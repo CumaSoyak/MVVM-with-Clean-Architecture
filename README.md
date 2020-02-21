@@ -1,6 +1,5 @@
-###Hepsiburada Case
-Introduction
-------------
+### Hepsiburada Case
+
 
 The application uses Clean Architecture based on MVVM and Repository patterns. Implemented
 Architecture principles follow Google recommended [Guide to app architecture](https://developer.android.com/jetpack/docs/guide).
