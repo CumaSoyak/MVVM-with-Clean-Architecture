@@ -1,4 +1,4 @@
-### Hepsiburada Case
+ 
 
 
 The application uses Clean Architecture based on MVVM and Repository patterns. Implemented
